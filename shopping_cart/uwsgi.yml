@@ -1,0 +1,10 @@
+uwsgi:
+  uid: uwsgi
+  gid: uwsgi
+  base: api
+  socket: 0.0.0.0:3031
+  protocol: uwsgi
+  pythonpath: %(base)
+  wsgi-file: shopping_cart_rest.py
+  callable: app
+  cap: setgid,setuid

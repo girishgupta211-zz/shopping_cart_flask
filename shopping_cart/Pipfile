@@ -1,0 +1,32 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+pandas = "*"
+sqlalchemy = "*"
+pytest = "*"
+pyyaml = "*"
+configparser = "*"
+docker = "*"
+flask-cors = "*"
+"psycopg2-binary" = "*"
+flask-sqlalchemy = "*"
+"flake8" = "*"
+sqlalchemy-utils = "*"
+sqlalchemy-continuum = "*"
+uwsgi = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.7"

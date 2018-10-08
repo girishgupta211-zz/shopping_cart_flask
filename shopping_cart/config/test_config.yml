@@ -1,0 +1,13 @@
+pg:
+  host: 127.0.0.1
+  port: 5432
+  user: root
+  pw: test_pw
+  db: shopping_cart
+
+log:
+  log_name: response.log
+  log_size_bytes: 5000
+  ROLLOVER: midnight
+  INTERVAL: 1
+  BACKUP_COUNT: 30
